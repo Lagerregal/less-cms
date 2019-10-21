@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "less-cms-dev-20191021141459-authRole",
+            "UnauthRoleArn": "arn:aws:iam::771250227024:role/less-cms-dev-20191021141459-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::771250227024:role/less-cms-dev-20191021141459-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "less-cms-dev-20191021141459-deployment",
+            "UnauthRoleName": "less-cms-dev-20191021141459-unauthRole",
+            "StackName": "less-cms-dev-20191021141459",
+            "StackId": "arn:aws:cloudformation:eu-central-1:771250227024:stack/less-cms-dev-20191021141459/66c2c760-f3fc-11e9-aba1-02d441bc2b52"
+        },
+        "categories": {
+            "auth": {
+                "lesscms03a080ce": {}
+            }
+        }
+    }
+}

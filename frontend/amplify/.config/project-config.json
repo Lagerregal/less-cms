@@ -1,0 +1,17 @@
+{
+    "projectName": "less-cms",
+    "version": "2.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "angular",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "dist",
+            "BuildCommand": "npm run-script build",
+            "StartCommand": "ng serve --host=0.0.0.0 --disable-host-check"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}

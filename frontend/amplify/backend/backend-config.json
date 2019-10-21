@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"lesscms03a080ce": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
