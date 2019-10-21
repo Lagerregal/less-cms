@@ -1,5 +1,8 @@
 <div>
   <amplify-authenticator></amplify-authenticator>
 </div>
+<div *ngIf="currentUser">
+  Hello {{currentUser.username}}!
+</div>
 
 <router-outlet></router-outlet>

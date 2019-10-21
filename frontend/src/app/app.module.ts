@@ -5,6 +5,7 @@ import Amplify, { Auth } from 'aws-amplify';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 Amplify.configure({
@@ -33,7 +34,8 @@ const currentConfig = Auth.configure(false);
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AmplifyAngularModule
+    AmplifyAngularModule,
+    BrowserAnimationsModule
   ],
   providers: [
     AmplifyService
